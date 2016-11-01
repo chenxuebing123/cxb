@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name yoLessApp.controller:MainCtrl
+ * @name testcxbApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the yoLessApp
+ * Controller of the testcxbApp
  */
-angular.module('yoLessApp')
+angular.module('testcxbApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

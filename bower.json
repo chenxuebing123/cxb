@@ -1,5 +1,5 @@
 {
-  "name": "yo-less",
+  "name": "testcxb",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -7,13 +7,15 @@
     "vue": "^2.0.2",
     "summernote": "^0.8.2",
     "react": "^15.3.2",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "angular-cookie": "^4.1.0",
+    "angular-cookies": "^1.5.8"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "yoLessApp",
+  "moduleName": "testcxbApp",
   "overrides": {
     "bootstrap": {
       "main": [

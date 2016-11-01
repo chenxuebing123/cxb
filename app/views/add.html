@@ -1,0 +1,28 @@
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+          <button type="button" ng-click="back()" class="btn btn-link navbar-btn glyphicon glyphicon-chevron-left">
+          </button>
+          
+          <button type="button" class="pull-right btn btn-link navbar-btn glyphicon glyphicon-ok" ng-click="yes()">
+          </button> 
+    </div><!-- /.container-fluid -->
+</nav> 
+    <div class="container">  
+           <form class="ng-pristine ng-valid" role="form">
+                <div class="form-group"> <label>标题</label> 
+                     <input class="form-control input-lg" type="text" ng-model="title"> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="exampleInputPassword1">内容</label> 
+                       <textarea class="form-control input-lg" rows="5" ng-model="content"></textarea >
+                       	     <span class="label label-info bad" ng-click="bad('难过')">难过</span>
+                <span class="label label-info hard" ng-click="hard('奋斗')">奋斗</span>
+                <span class="label label-info happy" ng-click="happy('高兴')">高兴</span>
+                <span class="label label-info good" ng-click="good('美好')">美好</span>
+                <span class="label label-info scr" ng-click="scr('秘密')">秘密</span> 
+                </div> 
+            </form> 
+            
+    </div> 
+    
+http://www.somenote.cn/1510b/cxb3/dist/
